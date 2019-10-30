@@ -10,7 +10,7 @@ RUN python --version \
 	&& wget https://chromedriver.storage.googleapis.com/78.0.3904.70/chromedriver_linux64.zip \
 	&& unzip chromedriver_linux64.zip \
 	&& rm chromedriver_linux64.zip \
-	&& cd app \
+	&& cd .. \
 	&& wget http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_78.0.3904.70-1_amd64.deb \
 	&& dpkg -i google-chrome-stable_78.0.3904.70-1_amd64.deb \
 	&& rm google-chrome-stable_78.0.3904.70-1_amd64.deb \
